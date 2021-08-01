@@ -2,6 +2,8 @@ package SplitStats.Commands;
 
 import SplitStats.BotContainer;
 import SplitStats.Commands.Abstract.BaseCommand;
+import SplitStats.Commands.Information.Help;
+import SplitStats.Commands.Information.Ping;
 import net.dv8tion.jda.api.EmbedBuilder;
 
 import java.util.ArrayList;
@@ -13,11 +15,12 @@ public class CommandManager {
     public CommandManager() {
         commands = new ArrayList<>();
 
-        //commands.add(new Ping());
+        commands.add(new Ping());
+        commands.add(new Help());
     }
 
     public enum CommandCategory {
-        CONFIGURATION, INFORMATION, ECONOMY, MODERATION, FUN
+        INFORMATION
     }
 
     public EmbedBuilder[] getHelpEmbeds() {
