@@ -15,4 +15,5 @@ repositories {
 
 dependencies {
     implementation("net.dv8tion:JDA:4.3.0_301")
+    implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.9'
 }
