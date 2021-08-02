@@ -46,23 +46,23 @@ public class StreakStats extends BaseCommand {
                 
                 JSONObject lifetimeSeg = (JSONObject) segments.get(0);
                 JSONObject lifetimeStats = (JSONObject) lifetimeSeg.get("stats");
-                
+
                 builder.addField(username + "'s Streak Stats", "", false);
                 
-                builder.addField("Kills Per Min", ((JSONObject) lifetimeStats.get("killsPerMinute")).get("value").toString(), true);
-                builder.addField("Kills Per Match", ((JSONObject) lifetimeStats.get("killsPerMatch")).get("value").toString(), true);
-                builder.addField("Double Kills", ((JSONObject) lifetimeStats.get("medalDoubleKills")).get("value").toString(), true);
-                builder.addField("Triple Kills", ((JSONObject) lifetimeStats.get("medalTripleKills")).get("value").toString(), true);
-                builder.addField("Quad Kills", ((JSONObject) lifetimeStats.get("medalQuadKills")).get("value").toString(), true);
-                builder.addField("Quint Kills", ((JSONObject) lifetimeStats.get("medalQuintKills")).get("value").toString(), true);
-                builder.addField("Sext Kills", ((JSONObject) lifetimeStats.get("medalSexKills")).get("value").toString(), true);
-                builder.addField("5 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak1")).get("value").toString(), true);
-                builder.addField("10 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak2")).get("value").toString(), true);
-                builder.addField("15 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak3")).get("value").toString(), true);
-                builder.addField("20 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak4")).get("value").toString(), true);
-                builder.addField("25 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak5")).get("value").toString(), true);
-                builder.addField("50 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak6")).get("value").toString(), true);
-                builder.addField("Highest Consecutive Kills", String.valueOf(((JSONObject) lifetimeStats.get("highestConsecutiveKills")).get("value")), true);
+                builder.addField("Kills Per Min", ((JSONObject) lifetimeStats.get("killsPerMinute")).get("displayValue").toString(), true);
+                builder.addField("Kills Per Match", ((JSONObject) lifetimeStats.get("killsPerMatch")).get("displayValue").toString(), true);
+                builder.addField("Double Kills", ((JSONObject) lifetimeStats.get("medalDoubleKills")).get("displayValue").toString(), true);
+                builder.addField("Triple Kills", ((JSONObject) lifetimeStats.get("medalTripleKills")).get("displayValue").toString(), true);
+                builder.addField("Quad Kills", ((JSONObject) lifetimeStats.get("medalQuadKills")).get("displayValue").toString(), true);
+                builder.addField("Quint Kills", ((JSONObject) lifetimeStats.get("medalQuintKills")).get("displayValue").toString(), true);
+                builder.addField("Sext Kills", ((JSONObject) lifetimeStats.get("medalSexKills")).get("displayValue").toString(), true);
+                builder.addField("5 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak1")).get("displayValue").toString(), true);
+                builder.addField("10 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak2")).get("displayValue").toString(), true);
+                builder.addField("15 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak3")).get("displayValue").toString(), true);
+                builder.addField("20 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak4")).get("displayValue").toString(), true);
+                builder.addField("25 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak5")).get("displayValue").toString(), true);
+                builder.addField("50 Killstreak", ((JSONObject) lifetimeStats.get("medalKillstreak6")).get("displayValue").toString(), true);
+                builder.addField("Highest Consecutive Kills", String.valueOf(((JSONObject) lifetimeStats.get("highestConsecutiveKills")).get("displayValue")), true);
                 
                 ctx.getChannel().sendMessageEmbeds(builder.build()).queue();
 

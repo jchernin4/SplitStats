@@ -49,15 +49,15 @@ public class MiscStats extends BaseCommand {
 
                 builder.addField(username + "'s Misc Stats", "", false);
                 
-                builder.addField("Revenge Kills", String.valueOf(((JSONObject) lifetimeStats.get("revengeKills")).get("value")), true);
-                builder.addField("Portals Spawned", String.valueOf(((JSONObject) lifetimeStats.get("portalsSpawned")).get("value")), true);
-                builder.addField("Own Portals Entered", String.valueOf(((JSONObject) lifetimeStats.get("ownPortalsEntered")).get("value")), true);
-                builder.addField("Enemy Portals Entered", String.valueOf(((JSONObject) lifetimeStats.get("enemyPortalsEntered")).get("value")), true);
-                builder.addField("Enemy Portals Destroyed", String.valueOf(((JSONObject) lifetimeStats.get("enemyPortalsDestroyed")).get("value")), true);
-                builder.addField("Ally Portals Destroyed", String.valueOf(((JSONObject) lifetimeStats.get("allyPortalsEntered")).get("value")), true);
-                builder.addField("King Slayers", String.valueOf(((JSONObject) lifetimeStats.get("kingSlayers")).get("value")), true);
-                builder.addField("First Bloods", String.valueOf(((JSONObject) lifetimeStats.get("firstBloods")).get("value")), true);
-                builder.addField("Distance Portaled", String.valueOf(((JSONObject) lifetimeStats.get("distancePortaled")).get("value")), true);
+                builder.addField("Revenge Kills", String.valueOf(((JSONObject) lifetimeStats.get("revengeKills")).get("displayValue")), true);
+                builder.addField("Portals Spawned", String.valueOf(((JSONObject) lifetimeStats.get("portalsSpawned")).get("displayValue")), true);
+                builder.addField("Own Portals Entered", String.valueOf(((JSONObject) lifetimeStats.get("ownPortalsEntered")).get("displayValue")), true);
+                builder.addField("Enemy Portals Entered", String.valueOf(((JSONObject) lifetimeStats.get("enemyPortalsEntered")).get("displayValue")), true);
+                builder.addField("Enemy Portals Destroyed", String.valueOf(((JSONObject) lifetimeStats.get("enemyPortalsDestroyed")).get("displayValue")), true);
+                builder.addField("Ally Portals Destroyed", String.valueOf(((JSONObject) lifetimeStats.get("allyPortalsEntered")).get("displayValue")), true);
+                builder.addField("King Slayers", String.valueOf(((JSONObject) lifetimeStats.get("kingSlayers")).get("displayValue")), true);
+                builder.addField("First Bloods", String.valueOf(((JSONObject) lifetimeStats.get("firstBloods")).get("displayValue")), true);
+                builder.addField("Distance Portaled", String.valueOf(((JSONObject) lifetimeStats.get("distancePortaled")).get("displayValue")), true);
 
                 ctx.getChannel().sendMessageEmbeds(builder.build()).queue();
 

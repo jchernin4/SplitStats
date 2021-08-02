@@ -49,19 +49,19 @@ public class GamemodeStats extends BaseCommand {
 
                 builder.addField(username + "'s Gamemode Stats", "", false);
                 
-                builder.addField("Kills On Hill", String.valueOf(((JSONObject) lifetimeStats.get("killsOnHill")).get("value")), true);
-                builder.addField("Enemy Kills On Hill", String.valueOf(((JSONObject) lifetimeStats.get("enemyKillsOnHill")).get("value")), true);
-                builder.addField("Kills As VIP", String.valueOf(((JSONObject) lifetimeStats.get("killsAsVIP")).get("value")), true);
-                builder.addField("Hills Neutralized", String.valueOf(((JSONObject) lifetimeStats.get("hillsNeutralized")).get("value")), true);
-                builder.addField("Hills Captured", String.valueOf(((JSONObject) lifetimeStats.get("hillsCaptured")).get("value")), true);
-                builder.addField("Flags Returned", String.valueOf(((JSONObject) lifetimeStats.get("flagsReturned")).get("value")), true);
-                builder.addField("Flags Picked Up", String.valueOf(((JSONObject) lifetimeStats.get("flagsPickedUp")).get("value")), true);
-                builder.addField("Flags Kills", String.valueOf(((JSONObject) lifetimeStats.get("flagKills")).get("value")), true);
-                builder.addField("Flag Carrier Kills", String.valueOf(((JSONObject) lifetimeStats.get("flagCarrierKills")).get("value")), true);
-                builder.addField("Oddballs Picked Up", String.valueOf(((JSONObject) lifetimeStats.get("oddballsPickedUp")).get("value")), true);
-                builder.addField("Oddball Kills", String.valueOf(((JSONObject) lifetimeStats.get("oddballKills")).get("value")), true);
-                builder.addField("Oddball Carrier Kills", String.valueOf(((JSONObject) lifetimeStats.get("oddballCarrierKills")).get("value")), true);
-                builder.addField("Teabags Denied", String.valueOf(((JSONObject) lifetimeStats.get("teabagsDenied")).get("value")), true);
+                builder.addField("Kills On Hill", String.valueOf(((JSONObject) lifetimeStats.get("killsOnHill")).get("displayValue")), true);
+                builder.addField("Enemy Kills On Hill", String.valueOf(((JSONObject) lifetimeStats.get("enemyKillsOnHill")).get("displayValue")), true);
+                builder.addField("Kills As VIP", String.valueOf(((JSONObject) lifetimeStats.get("killsAsVIP")).get("displayValue")), true);
+                builder.addField("Hills Neutralized", String.valueOf(((JSONObject) lifetimeStats.get("hillsNeutralized")).get("displayValue")), true);
+                builder.addField("Hills Captured", String.valueOf(((JSONObject) lifetimeStats.get("hillsCaptured")).get("displayValue")), true);
+                builder.addField("Flags Returned", String.valueOf(((JSONObject) lifetimeStats.get("flagsReturned")).get("displayValue")), true);
+                builder.addField("Flags Picked Up", String.valueOf(((JSONObject) lifetimeStats.get("flagsPickedUp")).get("displayValue")), true);
+                builder.addField("Flags Kills", String.valueOf(((JSONObject) lifetimeStats.get("flagKills")).get("displayValue")), true);
+                builder.addField("Flag Carrier Kills", String.valueOf(((JSONObject) lifetimeStats.get("flagCarrierKills")).get("displayValue")), true);
+                builder.addField("Oddballs Picked Up", String.valueOf(((JSONObject) lifetimeStats.get("oddballsPickedUp")).get("displayValue")), true);
+                builder.addField("Oddball Kills", String.valueOf(((JSONObject) lifetimeStats.get("oddballKills")).get("displayValue")), true);
+                builder.addField("Oddball Carrier Kills", String.valueOf(((JSONObject) lifetimeStats.get("oddballCarrierKills")).get("displayValue")), true);
+                builder.addField("Teabags Denied", String.valueOf(((JSONObject) lifetimeStats.get("teabagsDenied")).get("displayValue")), true);
                 
                 ctx.getChannel().sendMessageEmbeds(builder.build()).queue();
 
