@@ -4,6 +4,10 @@ import SplitStats.BotContainer;
 import SplitStats.Commands.Abstract.BaseCommand;
 import SplitStats.Commands.Information.Help;
 import SplitStats.Commands.Information.Ping;
+import SplitStats.Commands.Stats.MiscStats;
+import SplitStats.Commands.Stats.GamemodeStats;
+import SplitStats.Commands.Stats.Stats;
+import SplitStats.Commands.Stats.StreakStats;
 import net.dv8tion.jda.api.EmbedBuilder;
 
 import java.util.ArrayList;
@@ -17,10 +21,14 @@ public class CommandManager {
 
         commands.add(new Ping());
         commands.add(new Help());
+        commands.add(new Stats());
+        commands.add(new StreakStats());
+        commands.add(new GamemodeStats());
+        commands.add(new MiscStats());
     }
 
     public enum CommandCategory {
-        INFORMATION
+        INFORMATION, STATS
     }
 
     public EmbedBuilder[] getHelpEmbeds() {

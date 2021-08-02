@@ -1,0 +1,2614 @@
+{
+  "data": {
+    "platformInfo": {
+      "platformSlug": "steam",
+      "platformUserId": "76561198277808760",
+      "platformUserHandle": "Fyre",
+      "platformUserIdentifier": "76561198277808760",
+      "avatarUrl": null,
+      "additionalParameters": null
+    },
+    "userInfo": {
+      "userId": null,
+      "isPremium": false,
+      "isVerified": false,
+      "isInfluencer": false,
+      "isPartner": false,
+      "countryCode": null,
+      "customAvatarUrl": null,
+      "customHeroUrl": null,
+      "socialAccounts": [
+
+      ],
+      "pageviews": 0,
+      "isSuspicious": null
+    },
+    "metadata": {
+
+    },
+    "segments": [
+      {
+        "type": "overview",
+        "attributes": {
+          "queue": null,
+          "season": 0
+        },
+        "metadata": {
+          "name": "Lifetime Overview"
+        },
+        "expiryDate": "0001-01-01T00:00:00+00:00",
+        "stats": {
+          "points": {
+            "rank": null,
+            "percentile": 51.0,
+            "displayName": "Points",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 155,
+            "displayValue": "155",
+            "displayType": "Number"
+          },
+          "kills": {
+            "rank": null,
+            "percentile": 51.0,
+            "displayName": "Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 113,
+            "displayValue": "113",
+            "displayType": "Number"
+          },
+          "assists": {
+            "rank": null,
+            "percentile": 49.0,
+            "displayName": "Assists",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 38,
+            "displayValue": "38",
+            "displayType": "Number"
+          },
+          "deaths": {
+            "rank": null,
+            "percentile": 57.0,
+            "displayName": "Deaths",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 105,
+            "displayValue": "105",
+            "displayType": "Number"
+          },
+          "suicides": {
+            "rank": null,
+            "percentile": 26.0,
+            "displayName": "Suicides",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 2,
+            "displayValue": "2",
+            "displayType": "Number"
+          },
+          "teabags": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Teabags",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "meleeKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Melee Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "portalKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Portal Kills",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "killsThruPortal": {
+            "rank": null,
+            "percentile": 49.0,
+            "displayName": "Kills Thru Portal",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "damageDealt": {
+            "rank": null,
+            "percentile": 50.0,
+            "displayName": "Damage Dealt",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 13943,
+            "displayValue": "13,943",
+            "displayType": "Number"
+          },
+          "matchesPlayed": {
+            "rank": null,
+            "percentile": 46.0,
+            "displayName": "Matches Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 9,
+            "displayValue": "9",
+            "displayType": "Number"
+          },
+          "wins": {
+            "rank": null,
+            "percentile": 21.0,
+            "displayName": "Wins",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 3,
+            "displayValue": "3",
+            "displayType": "Number"
+          },
+          "losses": {
+            "rank": null,
+            "percentile": 53.0,
+            "displayName": "Losses",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 6,
+            "displayValue": "6",
+            "displayType": "Number"
+          },
+          "wlPercentage": {
+            "rank": null,
+            "percentile": 5.0,
+            "displayName": "Win %",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 33.33,
+            "displayValue": "33.3%",
+            "displayType": "NumberPercentage"
+          },
+          "timePlayed": {
+            "rank": null,
+            "percentile": 53.0,
+            "displayName": "Time Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 3815,
+            "displayValue": "1h 03m 35s",
+            "displayType": "TimeSeconds"
+          },
+          "headshotsLanded": {
+            "rank": null,
+            "percentile": 48.0,
+            "displayName": "Headshots Landed",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 85,
+            "displayValue": "85",
+            "displayType": "Number"
+          },
+          "collaterals": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Collaterals",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "headshotKills": {
+            "rank": null,
+            "percentile": 41.0,
+            "displayName": "Headshot Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 21,
+            "displayValue": "21",
+            "displayType": "Number"
+          },
+          "headshotAccuracy": {
+            "rank": null,
+            "percentile": 50.0,
+            "displayName": "Headshot Accuracy %",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 13.51,
+            "displayValue": "13.5%",
+            "displayType": "NumberPercentage"
+          },
+          "shotsFired": {
+            "rank": null,
+            "percentile": 49.0,
+            "displayName": "Shots Fired",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 2065,
+            "displayValue": "2,065",
+            "displayType": "Number"
+          },
+          "shotsLanded": {
+            "rank": null,
+            "percentile": 48.0,
+            "displayName": "Shots Landed",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 629,
+            "displayValue": "629",
+            "displayType": "Number"
+          },
+          "shotsAccuracy": {
+            "rank": null,
+            "percentile": 39.0,
+            "displayName": "Shots Accuracy %",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 30.46,
+            "displayValue": "30.5%",
+            "displayType": "NumberPercentage"
+          },
+          "kd": {
+            "rank": null,
+            "percentile": 26.0,
+            "displayName": "K/D",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1.08,
+            "displayValue": "1.08",
+            "displayType": "NumberPrecision2"
+          },
+          "kad": {
+            "rank": null,
+            "percentile": 24.0,
+            "displayName": "KA/D",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1.44,
+            "displayValue": "1.44",
+            "displayType": "NumberPrecision2"
+          },
+          "killsPerMinute": {
+            "rank": null,
+            "percentile": 2.0,
+            "displayName": "Kills/min",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1.0,
+            "displayValue": "1.00",
+            "displayType": "NumberPrecision2"
+          },
+          "killsPerMatch": {
+            "rank": null,
+            "percentile": 48.0,
+            "displayName": "Kills/match",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 12.0,
+            "displayValue": "12.00",
+            "displayType": "NumberPrecision2"
+          },
+          "medalDoubleKills": {
+            "rank": null,
+            "percentile": 45.0,
+            "displayName": "Double Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 15,
+            "displayValue": "15",
+            "displayType": "Number"
+          },
+          "medalTripleKills": {
+            "rank": null,
+            "percentile": 0.0,
+            "displayName": "Triple Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "medalQuadKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killeidoscope!",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalQuintKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killiteration!",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalSexKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Sextuple Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak1": {
+            "rank": null,
+            "percentile": 30.0,
+            "displayName": "Killstreak: 5 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "medalKillstreak2": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 10 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak3": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 15 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak4": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 20 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak5": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 25 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak6": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 50 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "rankLevel": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Rank",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+              "imageUrl": "https://trackercdn.com/cdn/tracker.gg/splitgate/ranks/bronze.png",
+              "rankName": "Bronze"
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "rankXp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Rank XP",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": null,
+            "displayValue": null,
+            "displayType": "Number"
+          },
+          "progressionLevel": {
+            "rank": null,
+            "percentile": 44.0,
+            "displayName": "Level",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": 7,
+            "displayValue": "7",
+            "displayType": "Number"
+          },
+          "progressionXp": {
+            "rank": null,
+            "percentile": 48.0,
+            "displayName": "Level XP",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": 25905,
+            "displayValue": "25,905",
+            "displayType": "Number"
+          },
+          "teabagsDenied": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Teabags Denied",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "revengeKills": {
+            "rank": null,
+            "percentile": 50.0,
+            "displayName": "Revenge Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 23,
+            "displayValue": "23",
+            "displayType": "Number"
+          },
+          "portalsSpawned": {
+            "rank": null,
+            "percentile": 48.0,
+            "displayName": "Portals Spawned",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 113,
+            "displayValue": "113",
+            "displayType": "Number"
+          },
+          "ownPortalsEntered": {
+            "rank": null,
+            "percentile": 35.0,
+            "displayName": "Own Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 34,
+            "displayValue": "34",
+            "displayType": "Number"
+          },
+          "oddballsPickedUp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddballs Picked Up",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddball Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballCarrierKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddball Carrier Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "kingSlayers": {
+            "rank": null,
+            "percentile": 60.0,
+            "displayName": "King Slayers",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 33,
+            "displayValue": "33",
+            "displayType": "Number"
+          },
+          "killsOnHill": {
+            "rank": null,
+            "percentile": 34.0,
+            "displayName": "Kills On Hill",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "killsAsVIP": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills As VIP",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "hillsNeutralized": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Hills Neutralized",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "hillsCaptured": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Hills Captured",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "highestConsecutiveKills": {
+            "rank": null,
+            "percentile": 27.0,
+            "displayName": "Highest Consecutive Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 9,
+            "displayValue": "9",
+            "displayType": "Number"
+          },
+          "flagsReturned": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flags Returned",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagsPickedUp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flags Picked Up",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flag Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagCarrierKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flag Carrier Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "firstBloods": {
+            "rank": null,
+            "percentile": 0.0,
+            "displayName": "First Bloods",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "enemyPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "enemyPortalsDestroyed": {
+            "rank": null,
+            "percentile": 37.0,
+            "displayName": "Enemy Portals Destroyed",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 7,
+            "displayValue": "7",
+            "displayType": "Number"
+          },
+          "enemyKillsOnHill": {
+            "rank": null,
+            "percentile": 37.0,
+            "displayName": "Enemy Kills On Hill",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 6,
+            "displayValue": "6",
+            "displayType": "Number"
+          },
+          "distancePortaled": {
+            "rank": null,
+            "percentile": 28.0,
+            "displayName": "Distance Portaled",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 935,
+            "displayValue": "935",
+            "displayType": "Number"
+          },
+          "allyPortalsEntered": {
+            "rank": null,
+            "percentile": 28.0,
+            "displayName": "Ally Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 3,
+            "displayValue": "3",
+            "displayType": "Number"
+          },
+          "rankProgression": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Progression",
+            "displayCategory": null,
+            "category": null,
+            "metadata": {
+
+            },
+            "value": 0.06671114076050699,
+            "displayValue": "0.1%",
+            "displayType": "NumberPercentage"
+          }
+        }
+      },
+      {
+        "type": "playlist",
+        "attributes": {
+          "key": "unranked_team_social",
+          "queue": null,
+          "season": 0
+        },
+        "metadata": {
+          "name": "Team Social"
+        },
+        "expiryDate": "2021-08-01T15:26:10.8181061+00:00",
+        "stats": {
+          "points": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Points",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 107,
+            "displayValue": "107",
+            "displayType": "Number"
+          },
+          "kills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 108,
+            "displayValue": "108",
+            "displayType": "Number"
+          },
+          "assists": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Assists",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 32,
+            "displayValue": "32",
+            "displayType": "Number"
+          },
+          "deaths": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Deaths",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 93,
+            "displayValue": "93",
+            "displayType": "Number"
+          },
+          "suicides": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Suicides",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "teabags": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Teabags",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "meleeKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Melee Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "portalKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Portal Kills",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "killsThruPortal": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills Thru Portal",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "damageDealt": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Damage Dealt",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 12817,
+            "displayValue": "12,817",
+            "displayType": "Number"
+          },
+          "matchesPlayed": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Matches Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 8,
+            "displayValue": "8",
+            "displayType": "Number"
+          },
+          "wins": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Wins",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 3,
+            "displayValue": "3",
+            "displayType": "Number"
+          },
+          "losses": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Losses",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "wlPercentage": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Win %",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 37.5,
+            "displayValue": "37.5%",
+            "displayType": "NumberPercentage"
+          },
+          "timePlayed": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Time Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 3262,
+            "displayValue": "54m 22s",
+            "displayType": "TimeSeconds"
+          },
+          "headshotsLanded": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Headshots Landed",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 71,
+            "displayValue": "71",
+            "displayType": "Number"
+          },
+          "collaterals": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Collaterals",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "headshotKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Headshot Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 20,
+            "displayValue": "20",
+            "displayType": "Number"
+          },
+          "headshotAccuracy": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Headshot Accuracy %",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 13.32,
+            "displayValue": "13.3%",
+            "displayType": "NumberPercentage"
+          },
+          "shotsFired": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Shots Fired",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 1669,
+            "displayValue": "1,669",
+            "displayType": "Number"
+          },
+          "shotsLanded": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Shots Landed",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 533,
+            "displayValue": "533",
+            "displayType": "Number"
+          },
+          "shotsAccuracy": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Shots Accuracy %",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 31.94,
+            "displayValue": "31.9%",
+            "displayType": "NumberPercentage"
+          },
+          "kd": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "K/D",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1.16,
+            "displayValue": "1.16",
+            "displayType": "NumberPrecision2"
+          },
+          "kad": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "KA/D",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1.51,
+            "displayValue": "1.51",
+            "displayType": "NumberPrecision2"
+          },
+          "killsPerMinute": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills/min",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 2.0,
+            "displayValue": "2.00",
+            "displayType": "NumberPrecision2"
+          },
+          "killsPerMatch": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills/match",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 13.5,
+            "displayValue": "13.50",
+            "displayType": "NumberPrecision2"
+          },
+          "medalDoubleKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Double Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 15,
+            "displayValue": "15",
+            "displayType": "Number"
+          },
+          "medalTripleKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Triple Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "medalQuadKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killeidoscope!",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalQuintKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killiteration!",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalSexKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Sextuple Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak1": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 5 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "medalKillstreak2": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 10 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak3": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 15 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak4": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 20 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak5": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 25 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak6": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 50 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "rankXp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Rank XP",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "progressionLevel": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Level",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": null,
+            "displayValue": null,
+            "displayType": "Number"
+          },
+          "progressionXp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Level XP",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "teabagsDenied": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Teabags Denied",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "revengeKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Revenge Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 23,
+            "displayValue": "23",
+            "displayType": "Number"
+          },
+          "portalsSpawned": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Portals Spawned",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 113,
+            "displayValue": "113",
+            "displayType": "Number"
+          },
+          "ownPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Own Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 34,
+            "displayValue": "34",
+            "displayType": "Number"
+          },
+          "oddballsPickedUp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddballs Picked Up",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddball Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballCarrierKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddball Carrier Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "kingSlayers": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "King Slayers",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 33,
+            "displayValue": "33",
+            "displayType": "Number"
+          },
+          "killsOnHill": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills On Hill",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "killsAsVIP": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills As VIP",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "hillsNeutralized": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Hills Neutralized",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "hillsCaptured": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Hills Captured",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "highestConsecutiveKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Highest Consecutive Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 9,
+            "displayValue": "9",
+            "displayType": "Number"
+          },
+          "flagsReturned": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flags Returned",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagsPickedUp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flags Picked Up",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flag Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagCarrierKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flag Carrier Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "firstBloods": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "First Bloods",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "enemyPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "enemyPortalsDestroyed": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Portals Destroyed",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 7,
+            "displayValue": "7",
+            "displayType": "Number"
+          },
+          "enemyKillsOnHill": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Kills On Hill",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 6,
+            "displayValue": "6",
+            "displayType": "Number"
+          },
+          "distancePortaled": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Distance Portaled",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 935,
+            "displayValue": "935",
+            "displayType": "Number"
+          },
+          "allyPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Ally Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 3,
+            "displayValue": "3",
+            "displayType": "Number"
+          }
+        }
+      },
+      {
+        "type": "playlist",
+        "attributes": {
+          "key": "ranked_team_skirmish",
+          "queue": null,
+          "season": 0
+        },
+        "metadata": {
+          "name": "Team Skirmish"
+        },
+        "expiryDate": "2021-08-01T15:26:10.8181061+00:00",
+        "stats": {
+          "points": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Points",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 48,
+            "displayValue": "48",
+            "displayType": "Number"
+          },
+          "kills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 5,
+            "displayValue": "5",
+            "displayType": "Number"
+          },
+          "assists": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Assists",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 6,
+            "displayValue": "6",
+            "displayType": "Number"
+          },
+          "deaths": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Deaths",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 12,
+            "displayValue": "12",
+            "displayType": "Number"
+          },
+          "suicides": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Suicides",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "teabags": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Teabags",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "meleeKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Melee Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "portalKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Portal Kills",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "killsThruPortal": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills Thru Portal",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "damageDealt": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Damage Dealt",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1126,
+            "displayValue": "1,126",
+            "displayType": "Number"
+          },
+          "matchesPlayed": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Matches Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "wins": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Wins",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "losses": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Losses",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "wlPercentage": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Win %",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0.0,
+            "displayValue": "0.0%",
+            "displayType": "NumberPercentage"
+          },
+          "timePlayed": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Time Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 553,
+            "displayValue": "09m 13s",
+            "displayType": "TimeSeconds"
+          },
+          "headshotsLanded": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Headshots Landed",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 14,
+            "displayValue": "14",
+            "displayType": "Number"
+          },
+          "collaterals": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Collaterals",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "headshotKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Headshot Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "headshotAccuracy": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Headshot Accuracy %",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 14.58,
+            "displayValue": "14.6%",
+            "displayType": "NumberPercentage"
+          },
+          "shotsFired": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Shots Fired",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 396,
+            "displayValue": "396",
+            "displayType": "Number"
+          },
+          "shotsLanded": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Shots Landed",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 96,
+            "displayValue": "96",
+            "displayType": "Number"
+          },
+          "shotsAccuracy": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Shots Accuracy %",
+            "displayCategory": "Weapons",
+            "category": "weapons",
+            "metadata": {
+
+            },
+            "value": 24.24,
+            "displayValue": "24.2%",
+            "displayType": "NumberPercentage"
+          },
+          "kd": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "K/D",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0.42,
+            "displayValue": "0.42",
+            "displayType": "NumberPrecision2"
+          },
+          "kad": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "KA/D",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0.92,
+            "displayValue": "0.92",
+            "displayType": "NumberPrecision2"
+          },
+          "killsPerMinute": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills/min",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0.56,
+            "displayValue": "0.56",
+            "displayType": "NumberPrecision2"
+          },
+          "killsPerMatch": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills/match",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 5.0,
+            "displayValue": "5.00",
+            "displayType": "NumberPrecision2"
+          },
+          "medalDoubleKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Double Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalTripleKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Triple Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalQuadKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killeidoscope!",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalQuintKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killiteration!",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalSexKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Sextuple Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak1": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 5 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak2": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 10 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak3": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 15 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak4": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 20 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak5": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 25 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "medalKillstreak6": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Killstreak: 50 Kills",
+            "displayCategory": "Medals",
+            "category": "medals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "rankLevel": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Rank",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+              "imageUrl": "https://trackercdn.com/cdn/tracker.gg/splitgate/ranks/bronze.png",
+              "rankName": "Bronze"
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "rankXp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Rank XP",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": 1,
+            "displayValue": "1",
+            "displayType": "Number"
+          },
+          "progressionLevel": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Level",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": null,
+            "displayValue": null,
+            "displayType": "Number"
+          },
+          "progressionXp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Level XP",
+            "displayCategory": "Playlist",
+            "category": "playlist",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "teabagsDenied": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Teabags Denied",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "revengeKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Revenge Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "portalsSpawned": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Portals Spawned",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "ownPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Own Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballsPickedUp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddballs Picked Up",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddball Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "oddballCarrierKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Oddball Carrier Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "kingSlayers": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "King Slayers",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "killsOnHill": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills On Hill",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "killsAsVIP": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Kills As VIP",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "hillsNeutralized": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Hills Neutralized",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "hillsCaptured": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Hills Captured",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "highestConsecutiveKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Highest Consecutive Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagsReturned": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flags Returned",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagsPickedUp": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flags Picked Up",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flag Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "flagCarrierKills": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Flag Carrier Kills",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "firstBloods": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "First Bloods",
+            "displayCategory": "Other",
+            "category": "other",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "enemyPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "enemyPortalsDestroyed": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Portals Destroyed",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "enemyKillsOnHill": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Enemy Kills On Hill",
+            "displayCategory": "Objective",
+            "category": "objective",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "distancePortaled": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Distance Portaled",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "allyPortalsEntered": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Ally Portals Entered",
+            "displayCategory": "Portals",
+            "category": "portals",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "rankProgression": {
+            "rank": null,
+            "percentile": null,
+            "displayName": "Progression",
+            "displayCategory": null,
+            "category": null,
+            "metadata": {
+
+            },
+            "value": 0.06671114076050699,
+            "displayValue": "0.1%",
+            "displayType": "NumberPercentage"
+          }
+        }
+      }
+    ],
+    "availableSegments": [
+      {
+        "type": "weapon",
+        "attributes": {
+
+        },
+        "metadata": {
+
+        }
+      },
+      {
+        "type": "season",
+        "attributes": {
+          "season": 0
+        },
+        "metadata": {
+          "name": "Lifetime"
+        }
+      },
+      {
+        "type": "season",
+        "attributes": {
+          "season": 11
+        },
+        "metadata": {
+          "name": "Season 1"
+        }
+      }
+    ],
+    "expiryDate": "2021-08-01T15:26:10.8181061+00:00"
+  }
+}
