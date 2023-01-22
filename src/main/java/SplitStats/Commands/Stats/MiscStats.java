@@ -47,17 +47,19 @@ public class MiscStats extends BaseCommand {
                 JSONObject lifetimeSeg = (JSONObject) segments.get(0);
                 JSONObject lifetimeStats = (JSONObject) lifetimeSeg.get("stats");
 
-                builder.addField(username + "'s Misc Stats", "", false);
-                
-                builder.addField("Revenge Kills", String.valueOf(((JSONObject) lifetimeStats.get("revengeKills")).get("displayValue")), true);
-                builder.addField("Portals Spawned", String.valueOf(((JSONObject) lifetimeStats.get("portalsSpawned")).get("displayValue")), true);
-                builder.addField("Own Portals Entered", String.valueOf(((JSONObject) lifetimeStats.get("ownPortalsEntered")).get("displayValue")), true);
-                builder.addField("Enemy Portals Entered", String.valueOf(((JSONObject) lifetimeStats.get("enemyPortalsEntered")).get("displayValue")), true);
-                builder.addField("Enemy Portals Destroyed", String.valueOf(((JSONObject) lifetimeStats.get("enemyPortalsDestroyed")).get("displayValue")), true);
-                builder.addField("Ally Portals Destroyed", String.valueOf(((JSONObject) lifetimeStats.get("allyPortalsEntered")).get("displayValue")), true);
-                builder.addField("King Slayers", String.valueOf(((JSONObject) lifetimeStats.get("kingSlayers")).get("displayValue")), true);
-                builder.addField("First Bloods", String.valueOf(((JSONObject) lifetimeStats.get("firstBloods")).get("displayValue")), true);
-                builder.addField("Distance Portaled", String.valueOf(((JSONObject) lifetimeStats.get("distancePortaled")).get("displayValue")), true);
+                builder.setTitle(username + "'s Misc Stats");
+
+                builder.addField("",
+                        "**Revenge Kills:** `" + ((JSONObject) lifetimeStats.get("revengeKills")).get("displayValue") +
+                                "`\n**Portals Spawned:** `" + ((JSONObject) lifetimeStats.get("portalsSpawned")).get("displayValue") +
+                                "`\n**Own Portals Entered:** `" + ((JSONObject) lifetimeStats.get("ownPortalsEntered")).get("displayValue") +
+                                "`\n**Enemy Portals Entered:** `" + ((JSONObject) lifetimeStats.get("enemyPortalsEntered")).get("displayValue") +
+                                "`\n**Enemy Portals Destroyed:** `" + ((JSONObject) lifetimeStats.get("enemyPortalsDestroyed")).get("displayValue") +
+                                "`\n**Ally Portals Destroyed:** `" + ((JSONObject) lifetimeStats.get("allyPortalsEntered")).get("displayValue") +
+                                "`\n**King Slayers:** `" + ((JSONObject) lifetimeStats.get("kingSlayers")).get("displayValue") +
+                                "`\n**First Bloods:** `" + ((JSONObject) lifetimeStats.get("firstBloods")).get("displayValue") +
+                                "`\n**Distance Portaled:** `" + ((JSONObject) lifetimeStats.get("distancePortaled")).get("displayValue") +
+                                "`", true);
 
                 ctx.getChannel().sendMessageEmbeds(builder.build()).queue();
 

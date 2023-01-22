@@ -47,22 +47,28 @@ public class GamemodeStats extends BaseCommand {
                 JSONObject lifetimeSeg = (JSONObject) segments.get(0);
                 JSONObject lifetimeStats = (JSONObject) lifetimeSeg.get("stats");
 
-                builder.addField(username + "'s Gamemode Stats", "", false);
-                
-                builder.addField("Kills On Hill", String.valueOf(((JSONObject) lifetimeStats.get("killsOnHill")).get("displayValue")), true);
-                builder.addField("Enemy Kills On Hill", String.valueOf(((JSONObject) lifetimeStats.get("enemyKillsOnHill")).get("displayValue")), true);
-                builder.addField("Kills As VIP", String.valueOf(((JSONObject) lifetimeStats.get("killsAsVIP")).get("displayValue")), true);
-                builder.addField("Hills Neutralized", String.valueOf(((JSONObject) lifetimeStats.get("hillsNeutralized")).get("displayValue")), true);
-                builder.addField("Hills Captured", String.valueOf(((JSONObject) lifetimeStats.get("hillsCaptured")).get("displayValue")), true);
-                builder.addField("Flags Returned", String.valueOf(((JSONObject) lifetimeStats.get("flagsReturned")).get("displayValue")), true);
-                builder.addField("Flags Picked Up", String.valueOf(((JSONObject) lifetimeStats.get("flagsPickedUp")).get("displayValue")), true);
-                builder.addField("Flags Kills", String.valueOf(((JSONObject) lifetimeStats.get("flagKills")).get("displayValue")), true);
-                builder.addField("Flag Carrier Kills", String.valueOf(((JSONObject) lifetimeStats.get("flagCarrierKills")).get("displayValue")), true);
-                builder.addField("Oddballs Picked Up", String.valueOf(((JSONObject) lifetimeStats.get("oddballsPickedUp")).get("displayValue")), true);
-                builder.addField("Oddball Kills", String.valueOf(((JSONObject) lifetimeStats.get("oddballKills")).get("displayValue")), true);
-                builder.addField("Oddball Carrier Kills", String.valueOf(((JSONObject) lifetimeStats.get("oddballCarrierKills")).get("displayValue")), true);
-                builder.addField("Teabags Denied", String.valueOf(((JSONObject) lifetimeStats.get("teabagsDenied")).get("displayValue")), true);
-                
+                builder.setTitle(username + "'s Gamemode Stats");
+
+                builder.addField("",
+                        "**Kills On Hill:** `" + ((JSONObject) lifetimeStats.get("killsOnHill")).get("displayValue") +
+                                "`\n**Enemy Kills On Hill:** `" + ((JSONObject) lifetimeStats.get("enemyKillsOnHill")).get("displayValue") + "`", true);
+
+                builder.addField("",
+                        "**Kills As VIP:** `" + ((JSONObject) lifetimeStats.get("killsAsVIP")).get("displayValue") +
+                                "`\n**Hills Neutralized:** `" + ((JSONObject) lifetimeStats.get("hillsNeutralized")).get("displayValue") +
+                                "`\n**Hills Captured:** `" + ((JSONObject) lifetimeStats.get("hillsCaptured")).get("displayValue") + "`", true);
+
+                builder.addField("", "**Flags Returned:** `" + ((JSONObject) lifetimeStats.get("flagsReturned")).get("displayValue") +
+                        "`\n**Flags Picked Up:** `" + ((JSONObject) lifetimeStats.get("flagsPickedUp")).get("displayValue") +
+                        "`\n**Flags Kills:** `" + ((JSONObject) lifetimeStats.get("flagKills")).get("displayValue") +
+                        "`\n**Flag Carrier Kills:** `" + ((JSONObject) lifetimeStats.get("flagCarrierKills")).get("displayValue") + "`", true);
+
+                builder.addField("", "**Oddballs Picked Up:** `" + ((JSONObject) lifetimeStats.get("oddballsPickedUp")).get("displayValue") +
+                        "`\n**Oddball Kills:** ` " + ((JSONObject) lifetimeStats.get("oddballKills")).get("displayValue") +
+                        "`\n**Oddball Carrier Kills:** ` " + ((JSONObject) lifetimeStats.get("oddballCarrierKills")).get("displayValue") + "`", true);
+
+                builder.addField("", "**Teabags Denied:** `" + ((JSONObject) lifetimeStats.get("teabagsDenied")).get("displayValue") + "`", true);
+
                 ctx.getChannel().sendMessageEmbeds(builder.build()).queue();
 
             } else {

@@ -48,38 +48,56 @@ public class Stats extends BaseCommand {
                 JSONObject lifetimeStats = (JSONObject) lifetimeSeg.get("stats");
 
                 String username = platformInfo.get("platformUserHandle").toString();
-                builder.addField(username + "'s Stats", "", false);
+                builder.setTitle(username + "'s Stats");
 
-                builder.addField("Points", ((JSONObject) lifetimeStats.get("points")).get("displayValue").toString(), true);
-                builder.addField("Kills", ((JSONObject) lifetimeStats.get("kills")).get("displayValue").toString(), true);
-                builder.addField("Assists", ((JSONObject) lifetimeStats.get("assists")).get("displayValue").toString(), true);
-                builder.addField("Deaths", ((JSONObject) lifetimeStats.get("deaths")).get("displayValue").toString(), true);
-                builder.addField("K/D", ((JSONObject) lifetimeStats.get("kd")).get("displayValue").toString(), true);
-                builder.addField("K/A/D", ((JSONObject) lifetimeStats.get("kad")).get("displayValue").toString(), true);
-                builder.addField("Suicides", ((JSONObject) lifetimeStats.get("suicides")).get("displayValue").toString(), true);
-                builder.addField("Melee Kills", ((JSONObject) lifetimeStats.get("meleeKills")).get("displayValue").toString(), true);
-                builder.addField("Portal Kills", ((JSONObject) lifetimeStats.get("portalKills")).get("displayValue").toString(), true);
-                builder.addField("Kills Through Portal", ((JSONObject) lifetimeStats.get("killsThruPortal")).get("displayValue").toString(), true);
-                builder.addField("Damage Dealt", ((JSONObject) lifetimeStats.get("damageDealt")).get("displayValue").toString(), true);
-                builder.addField("Matches Played", ((JSONObject) lifetimeStats.get("matchesPlayed")).get("displayValue").toString(), true);
-                builder.addField("Wins", ((JSONObject) lifetimeStats.get("wins")).get("displayValue").toString(), true);
-                builder.addField("Losses", ((JSONObject) lifetimeStats.get("losses")).get("displayValue").toString(), true);
-                builder.addField("Win Loss %", ((JSONObject) lifetimeStats.get("wlPercentage")).get("displayValue").toString(), true);
-                builder.addField("Time Played", ((JSONObject) lifetimeStats.get("timePlayed")).get("displayValue").toString(), true);
-                builder.addField("Headshots", ((JSONObject) lifetimeStats.get("headshotsLanded")).get("displayValue").toString(), true);
-                builder.addField("Headshot Kills", ((JSONObject) lifetimeStats.get("headshotKills")).get("displayValue").toString(), true);
-                builder.addField("Headshot Accuracy", ((JSONObject) lifetimeStats.get("headshotAccuracy")).get("displayValue").toString(), true);
-                builder.addField("Collaterals", ((JSONObject) lifetimeStats.get("collaterals")).get("displayValue").toString(), true);
-                builder.addField("Shots Fired", ((JSONObject) lifetimeStats.get("shotsFired")).get("displayValue").toString(), true);
-                builder.addField("Shots Landed", ((JSONObject) lifetimeStats.get("shotsLanded")).get("displayValue").toString(), true);
-                builder.addField("Shots Accuracy", ((JSONObject) lifetimeStats.get("shotsAccuracy")).get("displayValue").toString(), true);
-                builder.addField("Kills Per Min", ((JSONObject) lifetimeStats.get("killsPerMinute")).get("displayValue").toString(), true);
-                builder.addField("Kills Per Match", ((JSONObject) lifetimeStats.get("killsPerMatch")).get("displayValue").toString(), true);
-                builder.addField("Rank Level", String.valueOf(((JSONObject) lifetimeStats.get("rankLevel")).get("displayValue")), true);
-                builder.addField("Rank XP", String.valueOf(((JSONObject) lifetimeStats.get("rankXp")).get("displayValue")), true);
-                builder.addField("Progression Level", String.valueOf(((JSONObject) lifetimeStats.get("progressionLevel")).get("displayValue")), true);
-                builder.addField("Progression XP", String.valueOf(((JSONObject) lifetimeStats.get("progressionXp")).get("displayValue")), true);
-                
+                builder.addField("",
+                        "**Points:** `" + ((JSONObject) lifetimeStats.get("points")).get("displayValue") +
+                                "`\n**Kills:** `" + ((JSONObject) lifetimeStats.get("kills")).get("displayValue") +
+                                "`\n**Assists:** `" + ((JSONObject) lifetimeStats.get("assists")).get("displayValue") +
+                                "`\n**Deaths:** `" + ((JSONObject) lifetimeStats.get("deaths")).get("displayValue") +
+                                "`\n**Suicides:** `" + ((JSONObject) lifetimeStats.get("suicides")).get("displayValue") +
+                                "`", true);
+
+                builder.addField("",
+                        "**K/D:** `" + ((JSONObject) lifetimeStats.get("kd")).get("displayValue") +
+                                "`\n**K/A/D:** `" + ((JSONObject) lifetimeStats.get("kad")).get("displayValue") +
+                                "`\n**Kills Per Min:** `" + ((JSONObject) lifetimeStats.get("killsPerMinute")).get("displayValue") +
+                                "`\n**Kills Per Match:** `" + ((JSONObject) lifetimeStats.get("killsPerMatch")).get("displayValue") +
+                                "`", true);
+
+                builder.addField("",
+                        "**Damage Dealt:** `" + ((JSONObject) lifetimeStats.get("damageDealt")).get("displayValue") +
+                                "`\n**Headshots:** `" + ((JSONObject) lifetimeStats.get("headshotsLanded")).get("displayValue") +
+                                "`\n**Headshot Kills:** `" + ((JSONObject) lifetimeStats.get("headshotKills")).get("displayValue") +
+                                "`\n**Headshot Accuracy:** `" + ((JSONObject) lifetimeStats.get("headshotAccuracy")).get("displayValue") +
+                                "`\n**Collaterals:** `" + ((JSONObject) lifetimeStats.get("collaterals")).get("displayValue") +
+                                "`", true);
+
+
+                builder.addField("",
+                        "**Time Played:** `" + ((JSONObject) lifetimeStats.get("timePlayed")).get("displayValue") +
+                                "`\n**Matches Played:** `" + ((JSONObject) lifetimeStats.get("matchesPlayed")).get("displayValue") +
+                                "`\n**Wins:** `" + ((JSONObject) lifetimeStats.get("wins")).get("displayValue") +
+                                "`\n**Losses:** `" + ((JSONObject) lifetimeStats.get("losses")).get("displayValue") +
+                                "`\n**Win Loss %:** `" + ((JSONObject) lifetimeStats.get("wlPercentage")).get("displayValue") +
+                                "`", true);
+
+                builder.addField("",
+                        "**Melee Kills:** `" + ((JSONObject) lifetimeStats.get("meleeKills")).get("displayValue") +
+                                "`\n**Portal Kills:** `" + ((JSONObject) lifetimeStats.get("portalKills")).get("displayValue") +
+                                "`\n**Kills Through Portal:** `" + ((JSONObject) lifetimeStats.get("killsThruPortal")).get("displayValue") +
+                                "`\n**Shots Fired:** `" + ((JSONObject) lifetimeStats.get("shotsFired")).get("displayValue") +
+                                "`\n**Shots Landed:** `" + ((JSONObject) lifetimeStats.get("shotsLanded")).get("displayValue") +
+                                "`\n**Shots Accuracy:** `" + ((JSONObject) lifetimeStats.get("shotsAccuracy")).get("displayValue") +
+                                "`", true);
+
+                builder.addField("",
+                        "**Rank Level:** `" + ((JSONObject) lifetimeStats.get("rankLevel")).get("displayValue") +
+                                "`\n**Rank XP:** `" + ((JSONObject) lifetimeStats.get("rankXp")).get("displayValue") +
+                                "`\n**Progression Level:** `" + ((JSONObject) lifetimeStats.get("progressionLevel")).get("displayValue") +
+                                "`\n**Progression XP:** `" + ((JSONObject) lifetimeStats.get("progressionXp")).get("displayValue") +
+                                "`", true);
+
                 ctx.getChannel().sendMessageEmbeds(builder.build()).queue();
 
             } else {
